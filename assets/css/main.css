@@ -650,7 +650,7 @@ input, select, textarea {
 				#header-top {
 					color: inherit;
 					cursor: default;
-					font-size: 0.8em;
+					font-size: 1em;
 					left: 0;
 					padding: 1em 1.5em;
 					position: fixed;
@@ -674,7 +674,6 @@ input, select, textarea {
 		
 						#header-top nav ul li {
 							display: inline-block;
-							margin-left: 1.5em;
 							padding-left: 0;
 						}
 		
@@ -682,7 +681,7 @@ input, select, textarea {
 								display: none;
 							}
 		
-							#header-top nav ul li a {
+							#header-top nav ul li span {
 								border: solid 1px transparent;
 								color: inherit;
 								display: inline-block;
@@ -701,11 +700,11 @@ input, select, textarea {
 								width: auto;
 							}
 		
-							#header-top nav ul li.submenu > a {
+							#header-top nav ul li.submenu > span {
 								text-decoration: none;
 							}
 		
-								#header-top nav ul li.submenu > a:before {
+								#header-top nav ul li.submenu > span:before {
 									-moz-osx-font-smoothing: grayscale;
 									-webkit-font-smoothing: antialiased;
 									display: inline-block;
@@ -718,22 +717,52 @@ input, select, textarea {
 									font-weight: 900;
 								}
 		
-								#header-top nav ul li.submenu > a:before {
+								#header-top nav ul li.submenu > span:before {
 									content: '\f107';
 									margin-right: 0.65em;
 								}
 		
-							#header-top nav ul li.active > a, #header-top nav ul li:hover > a {
+							#header-top nav ul li.active > span, #header-top nav ul li:hover > span {
 								-moz-transition: all 0.2s ease-in-out;
 								-webkit-transition: all 0.2s ease-in-out;
 								-ms-transition: all 0.2s ease-in-out;
 								transition: all 0.2s ease-in-out;
-								background: rgba(188, 202, 206, 0.15);
 							}
 		
-							#header-top nav ul li.current > a {
+							#header-top nav ul li.current > span {
 								font-weight: 900;
 							}
+
+							.dropotron {
+								min-width: 6em;
+							}
+						
+								.dropotron.level-0 {
+
+								}
+						
+									.dropotron.level-0:before {
+
+									}
+						
+								.dropotron > li {
+
+								}
+						
+									.dropotron > li > a {
+										text-align: center;
+										border-bottom: none;
+										padding: 0.25em 0.25em;
+									}
+						
+									.dropotron > li:hover > a {
+										background: rgba(188, 202, 206, 0.15);
+										color: #fff;
+									}
+						
+									.dropotron > li:first-child {
+
+									}
 
 /* Footer */
 
