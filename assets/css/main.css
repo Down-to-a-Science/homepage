@@ -759,6 +759,11 @@ input, select, textarea {
 										background: rgba(188, 202, 206, 0.15);
 										color: #fff;
 									}
+
+									.dropotron > li:active > a {
+										background: rgba(0, 0, 0, 0.2);
+										color: #fff;
+									}
 						
 									.dropotron > li:first-child {
 
