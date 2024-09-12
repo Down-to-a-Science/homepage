@@ -647,6 +647,94 @@ input, select, textarea {
 					display: none;
 				}
 
+				#header-top {
+					color: inherit;
+					cursor: default;
+					font-size: 0.8em;
+					left: 0;
+					padding: 1em 1.5em;
+					position: fixed;
+					top: 0;
+					width: 100%;
+					z-index: 10000;
+				}
+
+				#header-top nav {
+					letter-spacing: 0.075em;
+					position: absolute;
+					right: 1.5em;
+					text-transform: uppercase;
+					top: 0.75em;
+				}
+		
+					#header-top nav ul {
+						list-style: none;
+						padding-left: 0;
+					}
+		
+						#header-top nav ul li {
+							display: inline-block;
+							margin-left: 1.5em;
+							padding-left: 0;
+						}
+		
+							#header-top nav ul li > ul {
+								display: none;
+							}
+		
+							#header-top nav ul li a {
+								border: solid 1px transparent;
+								color: inherit;
+								display: inline-block;
+								line-height: 1em;
+								padding: 0.6em 0.75em;
+								text-decoration: none;
+							}
+		
+							#header-top nav ul li input[type="button"],
+							#header-top nav ul li input[type="submit"],
+							#header-top nav ul li input[type="reset"],
+							#header-top nav ul li button,
+							#header-top nav ul li .button {
+								font-size: 1em;
+								min-width: 0;
+								width: auto;
+							}
+		
+							#header-top nav ul li.submenu > a {
+								text-decoration: none;
+							}
+		
+								#header-top nav ul li.submenu > a:before {
+									-moz-osx-font-smoothing: grayscale;
+									-webkit-font-smoothing: antialiased;
+									display: inline-block;
+									font-style: normal;
+									font-variant: normal;
+									text-rendering: auto;
+									line-height: 1;
+									text-transform: none !important;
+									font-family: 'Font Awesome 5 Free';
+									font-weight: 900;
+								}
+		
+								#header-top nav ul li.submenu > a:before {
+									content: '\f107';
+									margin-right: 0.65em;
+								}
+		
+							#header-top nav ul li.active > a, #header-top nav ul li:hover > a {
+								-moz-transition: all 0.2s ease-in-out;
+								-webkit-transition: all 0.2s ease-in-out;
+								-ms-transition: all 0.2s ease-in-out;
+								transition: all 0.2s ease-in-out;
+								background: rgba(188, 202, 206, 0.15);
+							}
+		
+							#header-top nav ul li.current > a {
+								font-weight: 900;
+							}
+
 /* Footer */
 
 	#footer {
