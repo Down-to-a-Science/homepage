@@ -235,69 +235,8 @@ input, select, textarea {
 		top: 0;
 	}
 
-	@-moz-keyframes bg {
-		0% {
-			-moz-transform: translate3d(0,0,0);
-			-webkit-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
 
-		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
-		}
-	}
 
-	@-webkit-keyframes bg {
-		0% {
-			-moz-transform: translate3d(0,0,0);
-			-webkit-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
-
-		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
-		}
-	}
-
-	@-ms-keyframes bg {
-		0% {
-			-moz-transform: translate3d(0,0,0);
-			-webkit-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
-
-		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
-		}
-	}
-
-	@keyframes bg {
-		0% {
-			-moz-transform: translate3d(0,0,0);
-			-webkit-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
-
-		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
-		}
-	}
 
 	#bg {
 		background-size: 2250px auto;
@@ -738,70 +677,6 @@ input, select, textarea {
 
 		/* BG */
 
-			@-moz-keyframes bg {
-				0% {
-					-moz-transform: translate3d(0,0,0);
-					-webkit-transform: translate3d(0,0,0);
-					-ms-transform: translate3d(0,0,0);
-					transform: translate3d(0,0,0);
-				}
-
-				100% {
-					-moz-transform: translate3d(-1500px,0,0);
-					-webkit-transform: translate3d(-1500px,0,0);
-					-ms-transform: translate3d(-1500px,0,0);
-					transform: translate3d(-1500px,0,0);
-				}
-
-	}
-
-		@-webkit-keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-1500px,0,0);
-				-webkit-transform: translate3d(-1500px,0,0);
-				-ms-transform: translate3d(-1500px,0,0);
-				transform: translate3d(-1500px,0,0);
-			}
-			}
-
-		@-ms-keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-1500px,0,0);
-				-webkit-transform: translate3d(-1500px,0,0);
-				-ms-transform: translate3d(-1500px,0,0);
-				transform: translate3d(-1500px,0,0);
-			}
-		}
-
-		@keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-1500px,0,0);
-				-webkit-transform: translate3d(-1500px,0,0);
-				-ms-transform: translate3d(-1500px,0,0);
-				transform: translate3d(-1500px,0,0);
-			}
-		}
 
 		#bg {
 			background-size: 1500px auto;
@@ -820,70 +695,6 @@ input, select, textarea {
 
 		/* BG */
 
-			@-moz-keyframes bg {
-				0% {
-					-moz-transform: translate3d(0,0,0);
-					-webkit-transform: translate3d(0,0,0);
-					-ms-transform: translate3d(0,0,0);
-					transform: translate3d(0,0,0);
-				}
-
-				100% {
-					-moz-transform: translate3d(-750px,0,0);
-					-webkit-transform: translate3d(-750px,0,0);
-					-ms-transform: translate3d(-750px,0,0);
-					transform: translate3d(-750px,0,0);
-				}
-
-	}
-
-		@-webkit-keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-750px,0,0);
-				-webkit-transform: translate3d(-750px,0,0);
-				-ms-transform: translate3d(-750px,0,0);
-				transform: translate3d(-750px,0,0);
-			}
-			}
-
-		@-ms-keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-750px,0,0);
-				-webkit-transform: translate3d(-750px,0,0);
-				-ms-transform: translate3d(-750px,0,0);
-				transform: translate3d(-750px,0,0);
-			}
-		}
-
-		@keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-750px,0,0);
-				-webkit-transform: translate3d(-750px,0,0);
-				-ms-transform: translate3d(-750px,0,0);
-				transform: translate3d(-750px,0,0);
-			}
-		}
 
 		#bg {
 			background-size: 750px auto;
@@ -906,70 +717,6 @@ input, select, textarea {
 
 		/* BG */
 
-			@-moz-keyframes bg {
-				0% {
-					-moz-transform: translate3d(0,0,0);
-					-webkit-transform: translate3d(0,0,0);
-					-ms-transform: translate3d(0,0,0);
-					transform: translate3d(0,0,0);
-				}
-
-				100% {
-					-moz-transform: translate3d(-300px,0,0);
-					-webkit-transform: translate3d(-300px,0,0);
-					-ms-transform: translate3d(-300px,0,0);
-					transform: translate3d(-300px,0,0);
-				}
-
-	}
-
-		@-webkit-keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-300px,0,0);
-				-webkit-transform: translate3d(-300px,0,0);
-				-ms-transform: translate3d(-300px,0,0);
-				transform: translate3d(-300px,0,0);
-			}
-			}
-
-		@-ms-keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-300px,0,0);
-				-webkit-transform: translate3d(-300px,0,0);
-				-ms-transform: translate3d(-300px,0,0);
-				transform: translate3d(-300px,0,0);
-			}
-		}
-
-		@keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-300px,0,0);
-				-webkit-transform: translate3d(-300px,0,0);
-				-ms-transform: translate3d(-300px,0,0);
-				transform: translate3d(-300px,0,0);
-			}
-		}
 
 		#bg {
 			background-size: 300px auto;
@@ -1003,71 +750,6 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		/* BG */
-
-			@-moz-keyframes bg {
-				0% {
-					-moz-transform: translate3d(0,0,0);
-					-webkit-transform: translate3d(0,0,0);
-					-ms-transform: translate3d(0,0,0);
-					transform: translate3d(0,0,0);
-				}
-
-				100% {
-					-moz-transform: translate3d(-412.5px,0,0);
-					-webkit-transform: translate3d(-412.5px,0,0);
-					-ms-transform: translate3d(-412.5px,0,0);
-					transform: translate3d(-412.5px,0,0);
-				}
-
-	}
-
-		@-webkit-keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-412.5px,0,0);
-				-webkit-transform: translate3d(-412.5px,0,0);
-				-ms-transform: translate3d(-412.5px,0,0);
-				transform: translate3d(-412.5px,0,0);
-			}
-			}
-
-		@-ms-keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-412.5px,0,0);
-				-webkit-transform: translate3d(-412.5px,0,0);
-				-ms-transform: translate3d(-412.5px,0,0);
-				transform: translate3d(-412.5px,0,0);
-			}
-		}
-
-		@keyframes bg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-412.5px,0,0);
-				-webkit-transform: translate3d(-412.5px,0,0);
-				-ms-transform: translate3d(-412.5px,0,0);
-				transform: translate3d(-412.5px,0,0);
-			}
-		}
 
 		#bg {
 			background-size: 412.5px auto;
