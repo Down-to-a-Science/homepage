@@ -11,6 +11,11 @@
 		$header = $('#header-top'),
 		$banner = $('#banner');
 
+	$(document).ready(function() {
+		let currentYear = new Date().getFullYear();
+		$('#copyright-year').text(currentYear);
+	});
+
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
